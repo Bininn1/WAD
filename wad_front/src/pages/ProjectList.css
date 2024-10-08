@@ -1,0 +1,280 @@
+
+
+
+  #project-list-container {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  .project-item .codecheck-icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    margin-right: 5px;
+    display: block;
+  }
+  
+  
+  #project-list {
+    width: calc(100% - 50px);
+    margin-left: 50px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+  }
+  
+  .project-item {
+    position: relative;
+    width: 320px;
+    height: 230px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-item:not(:last-child) {
+    margin-right: 10px;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-item .gear-icon-btn,
+  .project-item .trash-icon-btn,
+  .project-item .copy-icon-btn,
+  .project-item .codecheck-icon-btn,
+  .project-item .ellipsis-button {
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    margin-left: 50px;
+  }
+  
+
+  #search-button {
+    display: none;
+  }
+  .project-image-container {
+    position: relative; /* 이 줄을 추가하여 상대 위치 컨텍스트로 만듭니다 */
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background: white;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-image-container:hover  {
+    display: block;
+  }
+
+  
+  #new-project-btn {
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    margin-top: 225px;
+    position: absolute; /* 절대 위치를 사용합니다 */
+    top: 10px; /* 상단으로부터의 거리를 조절합니다 */
+    right: 20px; /* 오른쪽으로부터의 거리를 조절합니다 */
+  }
+  
+  
+  #delete-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    display: block;
+  }
+  
+  #delete-modal .delete-modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  #delete-modal .delete-modal-content h3 {
+    margin-top: 0;
+  }
+  
+  #delete-modal .delete-modal-content .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #delete-modal .delete-modal-content .btn-container button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #project-details {
+    margin-top: 8px;
+    font-size: 12px;
+    color: black;
+  }
+  
+  #project-separator {
+    border: none;
+    border-top: 1px solid black;
+    margin: 8px 0;
+  }
+  
+  #search-form {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  #search-input {
+    margin-left: 50px;
+  }
+  
+  #sort-select {
+    margin-right: 20px; /* 오른쪽에 여백을 추가합니다 */
+  }
+  
+  #project-item .ellipsis-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .project-name-container {
+    flex-grow: 1;
+  }
+  
+  .ellipsis-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ellipsis-button {
+    border: none;
+    background-color: white;
+    color: black;
+  }
+  .ellipsis-button:hover {
+    border: none;
+    background-color: white;
+    color: black;
+  }
+
+  .project-item:hover {
+    display: flex;
+  }
+  .icon-description {
+    position: absolute;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 16px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 반투명한 검은 배경 */
+    z-index: 1; /* 팝업보다 뒤에 위치하도록 설정 */
+  }
+  .app-blur {
+    pointer-events: none;
+  }
+  
+  .app-blur * {
+    filter: blur(2px);
+    opacity: 0.6;
+  }
+  
+  .app-blur .app-header,
+  .app-blur .app-content,
+  .app-blur .app-footer {
+    pointer-events: all;
+    filter: none;
+    opacity: 1;
+  }
+  
+  #project-name-outside {
+    margin-bottom: 10px;
+  }
+  
+  #project-image-container {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background: white;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #project-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+ 
+ 
+  .app hr {
+  width: 100%; /* 창 크기에 따라 너비가 변화 */
+  max-width: 100%; /* 최대 너비를 1955px로 지정 */
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  border: none;
+  height: 1px;
+  background-color: black;
+}

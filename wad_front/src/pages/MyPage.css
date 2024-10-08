@@ -1,0 +1,102 @@
+.container {
+  padding: 20px;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* 가로 중앙 정렬을 위해 추가 */
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 1650px;
+  height: 260px;
+  margin: 30px auto;
+  margin-top: 120px;  
+}
+
+
+.userimg-container {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.userimg {
+  margin-left: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+#imgbutton {
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.user-info-section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border-left: 1px solid #ccc; /* 섹션을 나누는 border 추가 */
+  padding-left: 30px; /* 섹션 내용의 좌측 여백 추가 */
+  margin-left: 50px;
+  height: 280px;
+}
+
+.user-info {
+  margin: 1.5px 20px;
+}
+
+.project-manager-btn{
+  background-color: wheat;
+  color:black;
+}
+.profile-setting-btn{
+  background-color: wheat;
+  color:black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬을 위해 수정 */
+  align-items: center;
+  margin-top: 10px;
+  width: 1320px;
+  margin: 0 auto; /* 가로 중앙 정렬을 위해 margin-top을 제거하고 margin을 0 auto로 설정 */
+}
+
+#profile-setting-btn{
+  width: 1672px;
+  border: 1px solid black;
+  background-color: wheat;
+  color: black;
+}
+#project-manager-btn{
+  width: 1672px;
+  margin-top: 1px;
+  border: 1px solid black;
+  background-color: wheat;
+  color: black;
+}
+.QnAcontainer {
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬을 위해 수정 */
+  align-items: center;
+  width: 1670px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 30px auto; /* 가로 중앙 정렬을 위해 margin-left을 제거하고 margin을 auto로 설정 */
+}
+.QnAsection{
+  width: 1600px;
+  display: inline;
+  justify-content: center;
+  text-align: center;
+}
+
+#QnAbtn{
+  width: 100px;
+}

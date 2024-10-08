@@ -1,0 +1,429 @@
+
+.project-toolbar {
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -8px;
+  top: 8px;
+  left: 0px;
+  width: 100.8%;
+  height: 36px;
+  opacity: 1;
+  background: #404040 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+}
+
+/* project-toolbar의 스타일은 그대로 두고 Modes 부분 수정 */
+.Center-Modes {
+
+  height: 35px;
+  background-color: transparent;
+  display: flex;
+  z-index: 100000;
+  margin-top: -9.5px;
+  margin-left: 900px;
+  align-items: center;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+
+.Mdoe-button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 0; /* 패딩 제거 */
+  width: 35px; /* 너비 설정
+ */
+  height: 35px; /* 높이 설정 */
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 100000;
+  display: flex; /* 버튼 내의 내용을 가운데 정렬하기 위해 */
+  align-items: center; /* 버튼 내의 내용을 세로 중앙 정렬하기 위해 */
+  justify-content: center; /* 버튼 내의 내용을 가로 중앙 정렬하기 위해 */
+  margin-top: 21px;
+}
+.Exit{
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 0; /* 패딩 제거 */
+  width: 35px; /* 너비 설정
+ */
+  height: 35px; /* 높이 설정 */
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 100000;
+  display: flex; /* 버튼 내의 내용을 가운데 정렬하기 위해 */
+  align-items: center; /* 버튼 내의 내용을 세로 중앙 정렬하기 위해 */
+  justify-content: center; /* 버튼 내의 내용을 가로 중앙 정렬하기 위해 */
+  margin-top: 0px;
+  right: 20px;
+  position: absolute;
+}
+.Exit:hover{
+  background-color: gray;
+  color: black;
+}
+.Exiticon{
+  width: 25px;
+  height: 25px;
+}
+.undo{
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 0; /* 패딩 제거 */
+  width: 35px; /* 너비 설정 */
+  height: 35px; /* 높이 설정 */
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 100000;
+  display: flex; /* 버튼 내의 내용을 가운데 정렬하기 위해 */
+  align-items: center; /* 버튼 내의 내용을 세로 중앙 정렬하기 위해 */
+  justify-content: center; /* 버튼 내의 내용을 가로 중앙 정렬하기 위해 */
+  margin-top: 21px;
+  position: absolute;
+  left: 642px;
+}
+.redo{
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 0; /* 패딩 제거 */
+  width: 35px; /* 너비 설정
+ */
+  height: 35px; /* 높이 설정 */
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 100000;
+  display: flex; /* 버튼 내의 내용을 가운데 정렬하기 위해 */
+  align-items: center; /* 버튼 내의 내용을 세로 중앙 정렬하기 위해 */
+  justify-content: center; /* 버튼 내의 내용을 가로 중앙 정렬하기 위해 */
+  margin-top: 21px;
+  position: absolute;
+  right:-490px;
+}
+
+.Save-button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 0; /* 패딩 제거 */
+  width: 35px; /* 너비 설정 */
+  height: 35px; /* 높이 설정 */
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 1;
+  display: flex; /* 버튼 내의 내용을 가운데 정렬하기 위해 */
+  align-items: center; /* 버튼 내의 내용을 세로 중앙 정렬하기 위해 */
+  justify-content: center; /* 버튼 내의 내용을 가로 중앙 정렬하기 위해 */
+  margin-top: 21px;
+  position: absolute;
+  right:-525px;
+}
+.Mdoe-button:hover, .undo:hover, .redo:hover, .Save-button:hover {
+  background-color: gray;
+  color: black;
+}
+
+.eyes:hover{
+  background-color: gray;
+}
+
+.eyes{
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 0; /* 패딩 제거 */
+  width: 35px; /* 너비 설정
+ */
+  height: 35px; /* 높이 설정 */
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 100000;
+  display: flex; /* 버튼 내의 내용을 가운데 정렬하기 위해 */
+  align-items: center; /* 버튼 내의 내용을 세로 중앙 정렬하기 위해 */
+  justify-content: center; /* 버튼 내의 내용을 가로 중앙 정렬하기 위해 */
+  margin-top: 21px;
+  margin-left: 20px;
+  position: absolute;
+  right:-402.5px;
+}
+
+.eyes img {
+  width: 27px;
+  height: 27px;
+}
+
+
+.three-image-button:hover{
+  background-color: gray;
+}
+
+.three-image-button{
+  background-color: transparent;
+  margin-left: 0px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* 왼쪽 정렬 설정 */
+  padding: 10px; /* 원하는 패딩값 설정 */
+  cursor: pointer;
+  margin-top: 0px;
+  position: absolute;
+  left: 100px;
+  border: none;
+}
+
+.three-image-button img {
+  margin-right: 10px; /* 이미지와 텍스트 사이의 여백 설정 (원하는 값으로 조정) */
+}
+
+.three-image-button2:hover{
+  background-color: gray;
+}
+
+.three-image-button2{
+  background-color: transparent;
+  margin-left: 0px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* 왼쪽 정렬 설정 */
+  padding: 10px; /* 원하는 패딩값 설정 */
+  cursor: pointer;
+  margin-top: 0px;
+  position: absolute;
+  left: 135px;
+  border: none;
+}
+
+.three-image-button2 img {
+  margin-right: 10px; /* 이미지와 텍스트 사이의 여백 설정 (원하는 값으로 조정) */
+}
+
+.mode-width-box{
+  margin-top: 17px;
+  margin-left: 10px;
+  color: white;
+}
+.Modes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three-image-button img,.three-image-button2 img, .Mdoe-button img, .Use-Component img, .eyes img, .Exit img, .undo img, .redo img{
+  filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);
+}
+
+
+.Mdoe-button.active {
+  background-color: darkgray;
+}
+
+
+.iconsize{
+  width: 135%;
+  height: 135%;
+}
+
+.iconsize2{
+  width: 60%;
+  height: 60%;
+}
+
+/* ConvertButton.css */
+.convert-button-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+
+}
+
+.convert-button {
+  background-color: transparent;
+  width: 65px; /* 너비를 자동으로 조정 */
+  height: 30px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  right: -605px;
+  font-size: 17px;
+  display: flex; /* 내부 요소를 정렬하기 위해 flex를 사용 */
+  align-items: center; /* 수직 정렬을 가운데로 설정 */
+  margin-top: 23px;
+}
+
+.convert-button > span { /* 내부에 있는 아이콘에 대한 스타일 조정 */
+  font-size: 24px; /* 아이콘 크기 조정 */
+  margin-right: 8px; /* 아이콘과 텍스트 사이의 간격 설정 */
+}
+.convert-button:hover {
+  color: black;
+  background-color: gray;
+}
+
+.modal-content {
+  top:150px;
+  left: 630px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  z-index: 9999999;
+}
+.modal-background {
+  position: absolute;
+  top: 45px;
+  left: -777px;
+  width: 1876px;
+  height: 1843px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100001;  /* z-index 값을 더 높게 설정 */
+  display: flex;
+  align-items: center;  /* 수직 가운데 정렬 */
+  justify-content: center;  /* 수평 가운데 정렬 */
+}
+
+.close-modal-button {
+  background-color: #ffffff;
+  color: #1A1A1A;
+  border-radius: 28px;
+  border: 1px solid #1A1A1A;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  float: right;
+  display: block;
+}
+.close-modal-button:hover{
+  color: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  background-color: #1A1A1A;
+}
+
+.language-selection {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.language-label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.language-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.language-button {
+  background-color: #ffffff;
+  color: #1A1A1A;
+  border-radius: 28px;
+  border: 1px solid #1A1A1A;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.language-button.active {
+  background-color: #121712; /* 배경색을 약간 더 어둡게 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 약간의 그림자 추가 */
+  color: #ffffff;
+  transform: scale(1.05); /* 약간 확대 */
+}
+
+.code-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+.code-textarea {
+  width: 100%;
+  height: 350px; /* 텍스트 박스 높이 크게 조정 */
+  border: 1px solid #ccc;
+  font-family: monospace;
+  resize: none;
+  margin-top: 10px;
+}
+
+.copy-button {
+  background-color: #ffffff;
+  color: #1A1A1A;
+  border-radius: 28px;
+  border: 1px solid #1A1A1A;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 12px;
+  display: block;
+  margin-left: 130px;
+  width: 250px;
+  margin-top: 20px;
+}
+.copy-button:hover{
+  background-color: black;
+  color: #ffffff;
+}
+
+/* 새로운 모달에 대한 스타일 */
+.loading-modal {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.loading-modal-content {
+  width: 500px;
+  height: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+  text-align: center;
+}
+
+.loading-modal-text{
+  margin-top: 100px;
+}
+.send-button{
+  background-color: #ffffff;
+  color: #1A1A1A;
+  border-radius: 28px;
+  border: 1px solid #1A1A1A;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 12px;
+  display: block;
+  margin-left: 130px;
+  width: 250px;
+  margin-top: 20px;
+}
+.send-button:hover{
+  background-color: black;
+  color: #ffffff;
+}
+

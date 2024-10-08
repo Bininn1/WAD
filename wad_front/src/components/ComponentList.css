@@ -1,0 +1,244 @@
+:root {
+
+  /* Colors: */
+  --unnamed-color-808080: #808080;
+  --unnamed-color-999999: #999999;
+  --unnamed-color-330adc: #330ADC;
+  --unnamed-color-5e5e5e: #5E5E5E;
+  --unnamed-color-1a1a1a: #1A1A1A;
+
+  /* Font/text values */
+  --unnamed-font-family-pretendard: Pretendard;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-size-16: 16px;
+  --unnamed-character-spacing--0-4: -0.4px;
+  --unnamed-line-spacing-19: 19px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-pretendard);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-19);
+  letter-spacing: var(--unnamed-character-spacing--0-4);
+  color: var(--unnamed-color-1a1a1a);
+}
+
+/* .ComponentLi 컨테이너 스타일 */
+.ComponentLi {
+  background: #383A42 0% 0% no-repeat padding-box;
+  /* 배경색은 검정색 */
+  top: 36px;
+  left: 0px;
+  width: 280px;
+  /* 가로 크기는 200px */
+  height: 1840px;
+  position: absolute;
+  opacity: 1;
+}
+
+.ComponentListScroll {
+  overflow-y: scroll; /* 세로 스크롤만 표시 */
+  height: 1840; /* 부모 요소(.ComponentListContainer)의 높이를 100%로 설정 */
+  width: 280px; /* 부모 요소(.ComponentListContainer)의 너비를 100%로 설정 */
+}
+
+/* .MainMenu 스타일 */
+.MainMenu {
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  background: #4B4D54 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  /* 글자 색상은 흰색 */
+  border-radius: 6px;
+  position: relative;
+  /* 위치는 상대적으로 */
+  height: 40px;
+  width: 240px;
+  margin: 20px;
+  margin-top: 0px;
+  padding-top: 8px;
+  padding-left: 16px;
+  font: var(--unnamed-font-style-normal) normal medium 14px/16px var(--unnamed-font-family-pretendard);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.MainMenu.Collapsed {
+  background: none;
+  border-top: 1px solid #5E5E5E;
+  border-radius: 0px;
+  margin-bottom: -1px;
+}
+
+.MainMeun.Collapsed + .MainMenu {
+  border-bottom: none; /* Collapsed 상태의 다음 메뉴 아이템에만 border-bottom 스타일 제거 */
+}
+
+/* .MainMenuIcon 스타일 */
+.MainMenuIcon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+/* .SubMenu 스타일 */
+.SubMenu {
+  height: 100px;
+  left: 20px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font: var(--unnamed-font-style-normal) normal medium 14px/16px var(--unnamed-font-family-pretendard);
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.SubMenu:hover {
+  background-color: #61646b;
+}
+
+/* .SubMenuContainer 스타일 */
+.SubMenuContainer {
+  box-sizing:border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: -20px;
+}
+
+/* .SubMenuContent 스타일 */
+.SubMenuContent {
+  display: flex;
+  /* 요소들을 가로 방향으로 나열 */
+  flex-direction: column;
+  /* 요소들을 세로 방향으로 나열 */
+  align-items: center;
+  /* 가로 방향에서 중앙으로 정렬 */
+  justify-content: center;
+  /* 세로 방향에서 중앙으로 정렬 */
+  margin-top: 0px;
+}
+
+/* .SubMenuIcon 스타일 */
+.SubMenuIcon {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  margin-top: 12px;
+}
+
+/* .SubMenuContent span 스타일 */
+.SubMenuContent span {
+  box-sizing: border-box;
+  font: var(--unnamed-font-style-normal) normal medium 12px/14px var(--unnamed-font-family-pretendard);
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 12px;
+  text-align: center;
+  /* 텍스트 정렬은 중앙 */
+  letter-spacing: -0.3px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+/* .SearchInput 스타일 */
+.SearchInputContainer .SearchInput {
+  position: relative;
+  box-sizing: border-box;
+  background: #383A42 0% 0% no-repeat padding-box;
+  /* 배경색은 검정색 */
+  width: 240px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid #5E5E5E;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.SearchInputContainer {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.SearchInput::placeholder {
+  padding-left: 3px;
+  font: normal normal medium 14px/16px Pretendard;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  color: #FFFFFF;
+}
+
+.CustomInput {
+  font: normal normal medium 14px/16px Pretendard;
+  font-size: 14px;
+  color: #FFFFFF; /* 원하는 색상으로 변경하세요. */
+}
+
+.SearchIcon {
+  box-sizing: border-box;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 220px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* .SubMenuTooltip 스타일 */
+.SubMenuTooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 1s ease, transform 1s ease;
+  width: auto;
+  text-align: center;
+  top: -5px;
+  /* 툴팁을 서브메뉴 위에 위치하도록 설정 */
+  left: 65%;
+  transform: translateX(-50%);
+  margin-top: -5px;
+  color: #1A1A1A; /* 또는 원하는 색상으로 변경 */
+  /* 글자 크기 및 스타일을 조정합니다. */
+  font: normal normal medium 14px/16px Pretendard;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+}
+
+/* .SubMenuContent:hover .SubMenuTooltip 스타일 */
+.SubMenuContent:hover .SubMenuTooltip {
+  opacity: 1;
+  /* 호버 상태에서 투명도를 1로 변경하여 툴팁을 나타냄 */
+}
+
+/* .SubMenuContent:active .SubMenuTooltip 스타일 */
+.SubMenuContent:active .SubMenuTooltip {
+  opacity: 0;
+  display: none;
+  /* 클릭 시 툴팁 숨김 */
+}
+
+.SubMenuContent:hover .SubMenu {
+  border-style: 1px solid black;
+  background: white;
+}

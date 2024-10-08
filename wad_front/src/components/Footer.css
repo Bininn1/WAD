@@ -1,0 +1,31 @@
+.footer-logo{
+    display: flex;
+    width: 41px;
+    height: 13px;
+    position: absolute;
+    margin: 60px 260px;
+}
+.footer-footer {
+    width: 100%;
+    height: 260px;
+    padding: 2vw 0vw;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #ffffff; /* 배경색을 지정해주는 것이 좋습니다. */
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); /* 그림자 속성 추가 */
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.footer-footer a {
+    margin-top: 60px;
+
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0px 5vh;
+}

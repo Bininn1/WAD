@@ -1,0 +1,52 @@
+.UsedComponentList {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  border: 3px solid black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 120px;
+  top: 100px;
+  left: 10.5%;
+}
+
+.UsedComponent {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: 91%;
+  font-size: 14px;
+  padding: 5px; /* 간격을 위해 padding 추가 */
+}
+
+.UsedComponentDelete {
+  border: none;
+  background: white;
+  width: 20px; height: 20px;
+  cursor: pointer;
+}
+
+.UsedComponentDeleteButton {
+  width: 20px;
+  height: 20px;
+
+}
+
+.ToggleUsedComponentsButton {
+  background-color: transparent;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  outline: none; /* 버튼 포커스 아웃라인 제거 */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ToggleUsedComponentsButton img {
+  width: 10px;
+  height: 10px;
+}

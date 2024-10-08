@@ -1,0 +1,146 @@
+/* NotoSansKR : 한글 폰트 */
+/* NotoSansKR-Black.woff */
+@font-face {
+  font-family: 'NotoSansKR';
+  src: url('./NotoSansKR-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* NotoSansKR-Bold.woff */
+@font-face {
+  font-family: 'NotoSansKR';
+  src: url('./NotoSansKR-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* NotoSansKR-Light.woff */
+@font-face {
+  font-family: 'NotoSansKR';
+  src: url('./NotoSansKR-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* NotoSansKR-Medium.woff */
+@font-face {
+  font-family: 'NotoSansKR';
+  src: url('./NotoSansKR-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* NotoSansKR-Regular.woff */
+@font-face {
+  font-family: 'NotoSansKR';
+  src: url('./NotoSansKR-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* NotoSansKR-Thin.woff */
+@font-face {
+  font-family: 'NotoSansKR';
+  src: url('./NotoSansKR-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+/* Roboto : 영문 폰트 */
+/* Roboto-Black.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Roboto-BlackItalic.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Roboto-Bold.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Roboto-BoldItalic.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Roboto-Italic.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Roboto-Light.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Roboto-LightItalic.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Roboto-Medium.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Roboto-MediumItalic.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Roboto-Regular.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Roboto-Thin.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Roboto-ThinItalic.woff */
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}

@@ -1,0 +1,69 @@
+/* FindId.css */
+
+.Forgot-id-container {
+  margin: 100px auto;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  top:30px;
+}
+
+.Forgot-id-h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Forgot-id-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Forgot-id-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.Forgot-id-input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Forgot-id-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Forgot-id-button:hover {
+  background-color: #0056b3;
+}
+
+.Forgot-id-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Forgot-id-link a {
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.Forgot-id-link a:hover {
+  text-decoration: underline;
+}
+

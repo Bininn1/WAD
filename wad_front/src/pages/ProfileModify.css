@@ -1,0 +1,27 @@
+#name-label,
+#password-label,
+#phone-label,
+#occupation-label {
+  width: 150px;
+}
+
+#name-input,
+#password-input,
+#phone-input,
+#occupation-input {
+  width: 200px;
+  margin-left: 20px;
+}
+
+#info-div{
+    width: 1600px;
+    height: 380px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 75px;
+    margin-left: 170px;
+}
+#infosave-btn{
+    width: 100px;
+}

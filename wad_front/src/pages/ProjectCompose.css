@@ -1,0 +1,8 @@
+/* CombinedStyles.css */
+.combined-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 두 열로 나눔 */
+  gap: 20px; /* 열 사이 간격 */
+  height: 100vh; /* 화면 높이에 맞춤 */
+  padding: 20px; /* 좌우 여백 추가 */
+}

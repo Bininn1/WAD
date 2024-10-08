@@ -1,0 +1,13 @@
+.app-content-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 브라우저 높이만큼 최소 높이를 설정 */
+}
+
+.app-content-main {
+    flex: 1; /* 나머지 공간을 채우도록 설정 */
+}
+
+.footer-footer {
+    margin-top: auto; /* 이 속성이 Footer를 하단으로 밀어줍니다 */
+}
